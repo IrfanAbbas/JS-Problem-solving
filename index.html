@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+< lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Prectics</title>
+        <link rel="stylesheet" href="style.css">
+        <script src="https://momentjs.com/downloads/moment.min.js"></script>
+</head>
+<body>
+    <!-- <h1>hello</h1> -->
+
+    <div> 
+        <button id="clock"> clickMe</button>
+        <button id="print" onclick="printWindow()"> clickMe to print </button>
+    </div>
+    <div class="time" id="ctime"></div>
+    <p id="todaytime"></p>
+    <p id="dateMathod"></p>
+    <h2>area of triangle</h2>
+    ============================================
+    <p id="areaTriangle"></p>
+    =========================================
+<h3>rotate string left to right</h3>
+<div class="container">
+    <button id="rotate" class="button" onclick="animatestring()">clickMe</button>
+    <span id="target">w3source</span>
+
+    =======================================================
+</div>
+
+<div class="form">
+    first Number: <input type="text" id="num1"><br><br>
+    second Number: <input type="text" id="num2"><br><br>
+   <button id="mul"onclick="multiply()">Multiply</button>
+   <button id="add" onclick="addition()">Addition</button>
+   <p>the result is: <span id="result"></span></p>
+</div>
+<p id="one"> the current url is:</p>
+
+<div class="file">
+
+</div>
+
+<h3>Find the gratest common divisible of two number</h3>
+<div class="gdc">
+   First Numer: <input type="number" name="" id="a">
+    Second Number:<input type="number" name="" id="b">
+    <input type="submit" onclick="gdc()">
+   The Result is: <p id="gdc_result"></p>
+</div>
+
+
+<div class="dropdown">
+    <button class="dropbtn">Dropdown</button>
+    <div class="dropdown-content">
+        <a href="#">Option 1</a>
+        <a href="#">Option 2</a>
+        <a href="#">Option 3</a>
+    </div>
+</div>
+
+    <div id="myDiv" class="my-element"></div>
+
+    <form id="myForm">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required><br><br>
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required><br><br>
+        <button type="submit">Submit</button>
+    </form>
+    
+    <div id="errorMessage" class="error" style="display: none;"></div>
+    
+    <script src="script.js"></script>
+        </body>
+        <html>

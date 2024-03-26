@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <p id="time"></p>
+
+    <Script>
+        function updateTime(){
+        const currentTime= new Date();
+        const hour= currentTime.getHours();
+        const minutes=currentTime.getMinutes() ;
+        const second = currentTime.getSeconds();
+        let a = hour +":"+minutes +":"+second; 
+        document.getElementById("time").innerHTML=a;
+        }
+        updateTime();
+
+        setInterval(updateTime , 1000);
+    </Script>
+</body>
+</html>
